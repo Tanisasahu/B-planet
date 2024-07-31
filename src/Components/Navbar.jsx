@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { toast } from "react-hot-toast";
-import image from "../assets/profile.jpg";
+import image from "../assets/profile.jpeg";
 
 function Navbar(props) {
   let isLoggedIn = props.isLoggedIn;

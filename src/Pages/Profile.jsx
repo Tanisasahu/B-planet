@@ -1,14 +1,14 @@
 import React from "react";
 import { RiEditFill } from "react-icons/ri";
-import image from "../assets/profile.jpg";
+import image from "../assets/profile.jpeg";
 import { useState } from "react";
 
 function Profile() {
   const [isEditing, setIsEditing] = useState(false);
-  const [name, setName] = useState("Anil Sahu");
-  const [email, setEmail] = useState("anil1011@gmail.com");
-  const [password, setPassword] = useState("Gooday123");
-  const [phoneNumber, setPhoneNumber] = useState("9853375624");
+  const [name, setName] = useState("Virat Kohli");
+  const [email, setEmail] = useState("viratk@gmail.com");
+  const [password, setPassword] = useState("abc123");
+  const [phoneNumber, setPhoneNumber] = useState("8018017733");
   const [address, setAddress] = useState("Patia, Bhubaneswar");
   const [state, setState] = useState("Odisha");
   const [zipCode, setZipCode] = useState(751024);

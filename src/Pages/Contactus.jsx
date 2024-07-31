@@ -15,9 +15,9 @@ function Contactus() {
           </div>
         </div>
         <div className="p-5 w-1/2 flex flex-col gap-4">
-          <input type="text" placeholder="Anil Sahu" className="h-10 pl-3 text-md bg-inputColorbg placeholder-white text-white focus:outline-none"/>
-          <input type="email" placeholder="anil1011@gmail.com" className="h-10 pl-3 bg-inputColorbg placeholder-white text-white focus:outline-none"/>
-          <textarea type="text" placeholder="i found your site well informed" className="h-24 pl-3 pt-2 bg-inputColorbg placeholder-white text-white focus:outline-none"/>
+          <input type="text" placeholder="Enter your Name" className="h-10 pl-3 text-md bg-inputColorbg placeholder-white text-white focus:outline-none"/>
+          <input type="email" placeholder="Enter your Email" className="h-10 pl-3 bg-inputColorbg placeholder-white text-white focus:outline-none"/>
+          <textarea type="text" placeholder="Message" className="h-24 pl-3 pt-2 bg-inputColorbg placeholder-white text-white focus:outline-none"/>
           <button className="border-2 rounded-2xl w-24 bg-stone-400 p-1">Submit</button>
         </div>
       </div>
