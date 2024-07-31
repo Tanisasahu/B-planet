@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { toast } from "react-hot-toast";
 import image from "../assets/profile.jpeg";
 
 function Navbar(props) {
@@ -9,7 +8,6 @@ function Navbar(props) {
 
   const handleLogout = () => {
     setIsLoggedIn(false);
-    toast.success("Logged Out");
   };
 
   return (

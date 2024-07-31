@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { IoMdEye, IoMdEyeOff } from 'react-icons/io';
-import toast from 'react-hot-toast';
 
 function LoginForm({setIsLoggedIn}) {
 
@@ -24,7 +23,6 @@ function LoginForm({setIsLoggedIn}) {
   function submitHandler(event){
     event.preventDefault();
     setIsLoggedIn(true);
-    toast.success("Logged In");
     navigate("/profile");
   }
 
